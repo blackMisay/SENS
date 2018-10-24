@@ -1,0 +1,1004 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EmailNotificationSystem
+</name>
+</assembly>
+<members>
+<member name="T:EmailNotificationSystem.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EmailNotificationSystem.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:EmailNotificationSystem.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:EmailNotificationSystem.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:EmailNotificationSystem.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:EmailNotificationSystem.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._Lbl_SenderEmail">
+<summary>
+Lbl_SenderEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._label4">
+<summary>
+label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._label1">
+<summary>
+label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._txt_from">
+<summary>
+txt_from control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._label2">
+<summary>
+label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._txt_to">
+<summary>
+txt_to control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._label6">
+<summary>
+label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._txt_email_subj">
+<summary>
+txt_email_subj control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._label3">
+<summary>
+label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._txt_msg">
+<summary>
+txt_msg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._btn_send">
+<summary>
+btn_send control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._label5">
+<summary>
+label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard2._lbl_status">
+<summary>
+lbl_status control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login._body">
+<summary>
+body control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login._Txt_Uname">
+<summary>
+Txt_Uname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login._Txt_Pass">
+<summary>
+Txt_Pass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login._Btn_SignIn">
+<summary>
+Btn_SignIn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Manage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Profile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Profile._profemail">
+<summary>
+profemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Lbl_EName">
+<summary>
+Lbl_EName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Lbl_Designation">
+<summary>
+Lbl_Designation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Lbl_EEmail">
+<summary>
+Lbl_EEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Btn_UserReg">
+<summary>
+Btn_UserReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Btn_StudReg">
+<summary>
+Btn_StudReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Btn_PWIS">
+<summary>
+Btn_PWIS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Btn_SendEmail">
+<summary>
+Btn_SendEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._Btn_Logout">
+<summary>
+Btn_Logout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._GView_Students">
+<summary>
+GView_Students control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._myName">
+<summary>
+myName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._lastname">
+<summary>
+lastname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._age">
+<summary>
+age control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._gender">
+<summary>
+gender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._phone">
+<summary>
+phone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register._submit">
+<summary>
+submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Lbl_Name">
+<summary>
+Lbl_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Lbl_Designation">
+<summary>
+Lbl_Designation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Lbl_Email">
+<summary>
+Lbl_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Btn_UserReg">
+<summary>
+Btn_UserReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Btn_StudReg">
+<summary>
+Btn_StudReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Btn_PWIS">
+<summary>
+Btn_PWIS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Btn_SendEmail">
+<summary>
+Btn_SendEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Dashboard1._Btn_Logout">
+<summary>
+Btn_Logout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Send">
+<summary>
+Send control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Lbl_Name">
+<summary>
+Lbl_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Lbl_Designation">
+<summary>
+Lbl_Designation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Lbl_Email">
+<summary>
+Lbl_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Btn_UserReg">
+<summary>
+Btn_UserReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Btn_StudReg">
+<summary>
+Btn_StudReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Btn_PWIS">
+<summary>
+Btn_PWIS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Btn_SendEmail">
+<summary>
+Btn_SendEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Btn_Logout">
+<summary>
+Btn_Logout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._FileUpload">
+<summary>
+FileUpload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Lbl_Template_Status">
+<summary>
+Lbl_Template_Status control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._user">
+<summary>
+user control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Txt_SendTo">
+<summary>
+Txt_SendTo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._message">
+<summary>
+message control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Btn_Send">
+<summary>
+Btn_Send control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Send._Btn_Upload">
+<summary>
+Btn_Upload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Lbl_Name">
+<summary>
+Lbl_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Lbl_Designation">
+<summary>
+Lbl_Designation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Lbl_Email">
+<summary>
+Lbl_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Btn_UserReg">
+<summary>
+Btn_UserReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Btn_StudReg">
+<summary>
+Btn_StudReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Btn_PWIS">
+<summary>
+Btn_PWIS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Btn_SendEmail">
+<summary>
+Btn_SendEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._Btn_Logout">
+<summary>
+Btn_Logout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._GView_Students">
+<summary>
+GView_Students control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._myName">
+<summary>
+myName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._middlename">
+<summary>
+middlename control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._lastname">
+<summary>
+lastname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._age">
+<summary>
+age control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._gender">
+<summary>
+gender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._email">
+<summary>
+email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._gfn">
+<summary>
+gfn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._gmn">
+<summary>
+gmn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._gln">
+<summary>
+gln control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._gemail">
+<summary>
+gemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Register1._submit">
+<summary>
+submit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Lbl_Name">
+<summary>
+Lbl_Name control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Lbl_Designation">
+<summary>
+Lbl_Designation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Lbl_Email">
+<summary>
+Lbl_Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Btn_UserReg">
+<summary>
+Btn_UserReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Btn_StudReg">
+<summary>
+Btn_StudReg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Btn_PWIS">
+<summary>
+Btn_PWIS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Btn_SendEmail">
+<summary>
+Btn_SendEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Btn_Logout">
+<summary>
+Btn_Logout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._GView_Students">
+<summary>
+GView_Students control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Txt_Subj">
+<summary>
+Txt_Subj control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Txt_Body">
+<summary>
+Txt_Body control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Lbl_Template">
+<summary>
+Lbl_Template control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._FUpload_Template">
+<summary>
+FUpload_Template control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Lbl_Attachment">
+<summary>
+Lbl_Attachment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._FUpload_Attachment">
+<summary>
+FUpload_Attachment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.WebForm1._Btn_Send">
+<summary>
+Btn_Send control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Index._Default">
+<summary>
+Default control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login1._Txt_User">
+<summary>
+Txt_User control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login1._Txt_Pass">
+<summary>
+Txt_Pass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EmailNotificationSystem.Login1._Btn_Login">
+<summary>
+Btn_Login control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
