@@ -5,10 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>School Email Notification System</title>
-      <link href="/Content/Styles/Forme.css" rel="stylesheet" />
+      <link href="Styles/Forme.css" rel="stylesheet" />
     <style>
         body{
-background-image: url('/Content/Images/background1.jpg');
+background-image: url('Images/background1.jpg');
             }
       h1{
             color:white;

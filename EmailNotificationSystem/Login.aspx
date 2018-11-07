@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="/Content/Styles/Forme.css" rel="stylesheet" />
+    <link href="/Styles/Forme.css" rel="stylesheet" />
    	<meta name="viewport" content="width=device-width, initial-scale=1"/>
     <script src="JavaScript.js"></script>
 
@@ -27,8 +27,8 @@
 
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css"/>
 
-	<link rel="stylesheet" type="text/css" href="/Content/Styles/Extensions/util.css"/>
-	<link rel="stylesheet" type="text/css" href="/Content/Styles/Extensions/main.css"/>
+	<link rel="stylesheet" type="text/css" href="/Styles/Extensions/util.css"/>
+	<link rel="stylesheet" type="text/css" href="/Styles/Extensions/main.css"/>
 
      <style>
         body{
