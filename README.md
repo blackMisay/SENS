@@ -3,6 +3,7 @@
 #### Date: August 22, 2018
 #### Last Updated: October 24, 2018
 #### Version: 1.1
+#### UI: @RaphaCode
 
 ### Things to do:
 ####   (SYNCING THE PROJECT)   
@@ -15,4 +16,6 @@
 	+ **Admin** - *Access Layer of the Administrator which includes (Employee, Student and Email forms)*		      
 	+ **Class** - *a folder that hold all class files*	          
 	+ **Content** - *stores the style,script,font,image and extension use inside the Application*
+
+#### Special thanks @busybeebryann
 

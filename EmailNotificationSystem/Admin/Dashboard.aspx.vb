@@ -6,7 +6,7 @@
         Dim Usr, Pas As String
         Usr = Session("uname")
         Pas = Session("upass")
-        _Data.FetchUserInfo(Lbl_Name, Lbl_Email, Usr, Pas)
+        '_Data.FetchUserInfo(Lbl_Name, Lbl_Email, Usr, Pas)
     End Sub
 
     Protected Sub Btn_SendEmail_Click(sender As Object, e As EventArgs) Handles Btn_SendEmail.Click
@@ -18,13 +18,13 @@
     Protected Sub Btn_UserReg_Click(sender As Object, e As EventArgs) Handles Btn_UserReg.Click
         Session("uname") = Lbl_Name.Text
         Session("uemail") = Lbl_Email.Text
-        Response.Redirect("/Employees/ERegister.aspx")
+        Response.Redirect("../Employees/ERegister.aspx")
     End Sub
 
     Protected Sub Btn_StudReg_Click(sender As Object, e As EventArgs) Handles Btn_StudReg.Click
         Session("uname") = Lbl_Name.Text
         Session("uemail") = Lbl_Email.Text
-        Response.Redirect("/Students/SRegister.aspx")
+        Response.Redirect("../Students/SRegister.aspx")
     End Sub
 
     Protected Sub Btn_Logout_Click(sender As Object, e As EventArgs) Handles Btn_Logout.Click

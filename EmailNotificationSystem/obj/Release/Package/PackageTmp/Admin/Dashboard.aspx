@@ -4,18 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title> Dashboard - School Email Notification System </title>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
          <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-         <link rel="stylesheet" type="text/css" href="/Styles/Forme.css"  />
+         <link rel="stylesheet" type="text/css" href="../Styles/Forme.css"  />
          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"/>
          <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"/>
          <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <style>
         body{
-            background-image:url('/Images/back2.jpg');
+            background-image:url('../Images/back2.jpg');
         }
         
 * {
@@ -185,7 +185,7 @@ p {
           <div class="profile-sidebar">
 				<!-- SIDEBAR USERPIC -->
 				<div class="profile-userpic">
-					<img src="/Images/admin.jpg" class="img-responsive" alt=""/>
+					<img src="../Images/admin.jpg" class="img-responsive" alt=""/>
 				</div>
                 <!-- END SIDEBAR USERPIC -->
                     <!-- SIDEBAR USER TITLE -->
