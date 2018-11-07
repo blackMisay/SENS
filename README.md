@@ -17,5 +17,6 @@
 	+ **Class** - *a folder that hold all class files*	          
 	+ **Content** - *stores the style,script,font,image and extension use inside the Application*
 
-#### Special thanks @busybeebryann
+#### Special thanks http://github.com - automatic!
+[GitHub](http://github.com) @busybeebryann
 
