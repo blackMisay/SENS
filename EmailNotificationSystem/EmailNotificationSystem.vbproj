@@ -101,14 +101,14 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin\Employees\Dashboard.aspx" />
-    <Content Include="Admin\Employees\Login.aspx" />
-    <Content Include="Admin\Employees\Manage.aspx" />
-    <Content Include="Admin\Employees\Profile.aspx" />
-    <Content Include="Admin\Employees\ERegister.aspx" />
+    <Content Include="Employees\Dashboard.aspx" />
+    <Content Include="Employees\Login.aspx" />
+    <Content Include="Employees\Manage.aspx" />
+    <Content Include="Employees\Profile.aspx" />
+    <Content Include="Employees\ERegister.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
     <Content Include="Admin\Send.aspx" />
-    <Content Include="Admin\Students\SRegister.aspx" />
+    <Content Include="Students\SRegister.aspx" />
     <Content Include="Admin\FullSend.aspx" />
     <Content Include="Content\Styles\Extensions\bootstrap.min.css" />
     <Content Include="Content\Styles\Extensions\font-awesome.min.css" />
@@ -125,38 +125,38 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin\Employees\Dashboard.aspx.designer.vb">
+    <Compile Include="Employees\Dashboard.aspx.designer.vb">
       <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Employees\Dashboard.aspx.vb">
+    <Compile Include="Employees\Dashboard.aspx.vb">
       <DependentUpon>Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Admin\Employees\Login.aspx.designer.vb">
+    <Compile Include="Employees\Login.aspx.designer.vb">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Employees\Login.aspx.vb">
+    <Compile Include="Employees\Login.aspx.vb">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Admin\Employees\Manage.aspx.designer.vb">
+    <Compile Include="Employees\Manage.aspx.designer.vb">
       <DependentUpon>Manage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Employees\Manage.aspx.vb">
+    <Compile Include="Employees\Manage.aspx.vb">
       <DependentUpon>Manage.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Admin\Employees\Profile.aspx.designer.vb">
+    <Compile Include="Employees\Profile.aspx.designer.vb">
       <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Employees\Profile.aspx.vb">
+    <Compile Include="Employees\Profile.aspx.vb">
       <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Admin\Employees\ERegister.aspx.designer.vb">
+    <Compile Include="Employees\ERegister.aspx.designer.vb">
       <DependentUpon>ERegister.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Employees\ERegister.aspx.vb">
+    <Compile Include="Employees\ERegister.aspx.vb">
       <DependentUpon>ERegister.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -174,10 +174,10 @@
       <DependentUpon>Send.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Admin\Students\SRegister.aspx.designer.vb">
+    <Compile Include="Students\SRegister.aspx.designer.vb">
       <DependentUpon>SRegister.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Students\SRegister.aspx.vb">
+    <Compile Include="Students\SRegister.aspx.vb">
       <DependentUpon>SRegister.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
