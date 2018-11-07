@@ -27,10 +27,10 @@
     Protected Sub Btn_SendEmail_Click(sender As Object, e As EventArgs) Handles Btn_SendEmail.Click
         Session("uname") = Lbl_Name.Text
         Session("uemail") = Lbl_Email.Text
-        Response.Redirect("../FullSend.aspx")
+        Response.Redirect("../Admin/FullSend.aspx")
     End Sub
 
     Protected Sub Btn_Logout_Click(sender As Object, e As EventArgs) Handles Btn_Logout.Click
-        Response.Redirect("../../Login.aspx")
+        Response.Redirect("../Login.aspx")
     End Sub
 End Class

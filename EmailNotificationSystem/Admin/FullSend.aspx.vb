@@ -103,13 +103,13 @@ Public Class WebForm1
     Protected Sub Btn_UserReg_Click(sender As Object, e As EventArgs) Handles Btn_UserReg.Click
         Session("uname") = Lbl_Name.Text
         Session("uemail") = Lbl_Email.Text
-        Response.Redirect("Employees/ERegister.aspx")
+        Response.Redirect("../Employees/ERegister.aspx")
     End Sub
 
     Protected Sub Btn_StudReg_Click(sender As Object, e As EventArgs) Handles Btn_StudReg.Click
         Session("uname") = Lbl_Name.Text
         Session("uemail") = Lbl_Email.Text
-        Response.Redirect("Students/SRegister.aspx")
+        Response.Redirect("../Students/SRegister.aspx")
     End Sub
 
     Protected Sub Btn_Logout_Click(sender As Object, e As EventArgs) Handles Btn_Logout.Click

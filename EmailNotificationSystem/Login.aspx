@@ -9,7 +9,7 @@
    	<meta name="viewport" content="width=device-width, initial-scale=1"/>
     <script src="JavaScript.js"></script>
 
-	<link rel="icon" type="image/png" href="Content/Images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="Images/favicon.ico"/>
 
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"/>
 
@@ -32,7 +32,7 @@
 
      <style>
         body{
-            background-image:url('/Content/Images/back2.jpg');
+            background-image:url('Images/back2.jpg');
         }
     </style>
 </head>

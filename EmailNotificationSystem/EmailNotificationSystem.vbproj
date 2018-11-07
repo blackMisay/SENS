@@ -74,8 +74,6 @@
   <ItemGroup>
     <Folder Include="Admin\Maintenance\" />
     <Folder Include="Content\Fonts\" />
-    <Folder Include="Images\" />
-    <Folder Include="Email Template\" />
     <Folder Include="Content\Scripts\" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +100,11 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Email Template\index.html" />
+    <Content Include="Email Template\PTA.txt" />
+    <Content Include="Email Template\ReportCard.html" />
+    <Content Include="Email Template\Report_Card.txt" />
+    <Content Include="Email Template\Wishlist.html" />
     <Content Include="Employees\Dashboard.aspx" />
     <Content Include="Employees\Login.aspx" />
     <Content Include="Employees\Manage.aspx" />
@@ -109,6 +112,16 @@
     <Content Include="Employees\ERegister.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
     <Content Include="Admin\Send.aspx" />
+    <Content Include="Images\admin.jpg" />
+    <Content Include="Images\back1.png" />
+    <Content Include="Images\back2.jpg" />
+    <Content Include="Images\background1.jpg" />
+    <Content Include="Images\bg-01.jpg" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Images\janet.png" />
+    <Content Include="Images\map-marker.png" />
+    <Content Include="Images\send.png" />
+    <Content Include="Images\teacher.png" />
     <Content Include="Students\SRegister.aspx" />
     <Content Include="Admin\FullSend.aspx" />
     <Content Include="Content\Styles\Extensions\bootstrap.min.css" />
