@@ -133,8 +133,8 @@
     <Content Include="Content\Styles\Extensions\style.css" />
     <Content Include="Content\Styles\Extensions\util.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Content\Styles\Forme.css" />
-    <Content Include="Content\Styles\Main.css" />
+    <Content Include="Styles\Forme.css" />
+    <Content Include="Styles\Main.css" />
     <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -251,6 +251,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\Test.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
