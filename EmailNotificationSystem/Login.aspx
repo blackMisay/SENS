@@ -5,13 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="/Styles/Forme.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="Styles/Forme.css"/>
+    <link rel="stylesheet" type="text/css" href="Styles/Extensions/util.css"/>
+	<link rel="stylesheet" type="text/css" href="Styles/Extensions/main.css"/>
+
    	<meta name="viewport" content="width=device-width, initial-scale=1"/>
     <script src="JavaScript.js"></script>
 
 	<link rel="icon" type="image/png" href="Images/favicon.ico"/>
 
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"/>
+	<%--<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css"/>
 
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>
 
@@ -25,10 +29,7 @@
 
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css"/>
 
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css"/>
-
-	<link rel="stylesheet" type="text/css" href="/Styles/Extensions/util.css"/>
-	<link rel="stylesheet" type="text/css" href="/Styles/Extensions/main.css"/>
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css"/>--%>
 
      <style>
         body{
@@ -50,7 +51,7 @@
              <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<div class="login100-form-title" style="background-image: url(Content/Images/bg-01.jpg);">
+				<div class="login100-form-title" style="background-image: url(Images/bg-01.jpg);">
 					<span class="login100-form-title-1">
 						Sign In
 					</span>

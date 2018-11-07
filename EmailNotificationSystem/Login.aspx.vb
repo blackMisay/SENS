@@ -11,13 +11,13 @@
 
 
         If _Data.UserData(Txt_User.Text, Txt_Pass.Text) = True Then
-            Response.Redirect("Login.aspx")
+            Response.Redirect("login.aspx")
         Else
             Session("name") = Txt_User.Text
 
-            Response.Redirect("/Admin/Dashboard.aspx")
+            Response.Redirect("/admin/dashboard.aspx")
         End If
-
+        'Response.Redirect("/Admin/Dashboard.aspx") 'For test purposes
     End Sub
 
 
