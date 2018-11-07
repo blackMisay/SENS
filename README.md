@@ -3,7 +3,7 @@
 #### Date: August 22, 2018
 #### Last Updated: October 24, 2018
 #### Version: 1.1
-#### UI: @RaphaCode
+#### UI: @[RaphaCode](https://github.com/RaphaCode)
 
 ### Things to do:
 ####   (SYNCING THE PROJECT)   
@@ -17,6 +17,5 @@
 	+ **Class** - *a folder that hold all class files*	          
 	+ **Content** - *stores the style,script,font,image and extension use inside the Application*
 
-#### Special thanks http://github.com - automatic!
-[GitHub](http://github.com) @busybeebryann
+#### Special thanks @[busybeebryann](https://github.com/busybeebryann)
 
